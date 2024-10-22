@@ -3,5 +3,6 @@ body{
     color: white;
 }
 iframe{
-    background: orangered
+    background: orangered;
+    margin: 30px;
 }
