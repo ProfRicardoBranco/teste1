@@ -16,3 +16,9 @@ iframe{
 h2{
     background: blueviolet;
 }
+
+section{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
