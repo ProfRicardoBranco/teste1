@@ -22,3 +22,10 @@ section{
     display: flex;
     justify-content: center;
 }
+.titulovideo{
+background: pink;
+}
+
+div{
+    background: greenyellow;
+    }
