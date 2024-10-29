@@ -2,6 +2,11 @@ body{
     background: black;
     color: white;
 }
+header{
+    margin: 0px;
+    padding: 20px;
+    border-bottom: solid blue 5px;
+}
 iframe{
     background: orangered;
     padding: 30px;
