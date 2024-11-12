@@ -30,3 +30,12 @@ background: pink;
 div{
     background: greenyellow;
     }
+
+    .maisvideos{
+        display: flex;
+
+    }
+
+    img{
+        height: 200px;
+    }
