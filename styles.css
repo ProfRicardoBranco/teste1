@@ -32,8 +32,8 @@ div{
     }
 
     .maisvideos{
-        display: grid;
-   
+        display: flexbox;
+        overflow-x: auto;
     }
 
     img{
