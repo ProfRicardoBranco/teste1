@@ -7,7 +7,7 @@ body{
 header{
     margin: 0px;
     padding: 20px;
-    border-bottom: solid blue 5px;
+    border-bottom: solid rgb(1, 1, 161) 5px;
     font-size: 30px;
 }
 iframe{
@@ -15,7 +15,7 @@ iframe{
     padding: 30px;
 }
 h2{
-    background: orangered;
+    background: rgb(1, 1, 161);
 }
 
 section{
