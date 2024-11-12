@@ -15,7 +15,7 @@ iframe{
     padding: 30px;
 }
 h2{
-    background: blueviolet;
+    background: orangered;
 }
 
 section{
@@ -38,4 +38,5 @@ div{
 
     img{
         height: 200px;
+        padding: 20px;
     }
