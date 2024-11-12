@@ -32,7 +32,7 @@ div{
     }
 
     .maisvideos{
-        display: flex;
+        display: flexbox;
         overflow-x: auto;
     }
 
