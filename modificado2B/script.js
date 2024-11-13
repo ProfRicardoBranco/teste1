@@ -1,21 +1,23 @@
+// Função para abrir o vídeo flutuante
 function abrirVideo(videoId) {
     const player = document.getElementById('player');
     const videoFlutuante = document.getElementById('videoFlutuante');
-    
-    // Atualizar o iframe com o vídeo correto
+
+    // Atualiza a URL do iframe para o vídeo do YouTube
     player.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
 
-    // Exibir o player flutuante
+    // Exibe o player flutuante
     videoFlutuante.style.display = 'block';
 }
 
+// Função para fechar o vídeo flutuante
 function fecharVideo() {
-    const videoFlutuante = document.getElementById('videoFlutuante');
     const player = document.getElementById('player');
+    const videoFlutuante = document.getElementById('videoFlutuante');
     
-    // Parar o vídeo quando for fechado
+    // Limpa o src do iframe para parar o vídeo
     player.src = '';
 
-    // Esconder o player flutuante
+    // Esconde o player flutuante
     videoFlutuante.style.display = 'none';
 }
