@@ -1,46 +1,80 @@
-body{
+body {
     font-family: "Permanent Marker", cursive;
     background: black;
     color: white;
     margin: 0px;
 }
-header{
+
+header {
     margin: 0px;
     padding: 20px;
     border-bottom: solid rgb(1, 1, 161) 5px;
     font-size: 30px;
 }
-iframe{
+
+iframe {
     background: white;
     padding: 30px;
 }
-h2{
+
+h2 {
     background: rgb(1, 1, 161);
 }
 
-section{
+section {
     padding: 20px;
     display: flex;
     justify-content: center;
 }
-.titulovideo{
-background: black;
+
+.titulovideo {
+    background: black;
 }
 
-div{
+div {
     background: white;
-    }
+}
 
-    .maisvideos{
-        display: flexbox;
-        overflow-x: auto;
-    }
+.maisvideos {
+    display: flexbox;
+    overflow-x: auto;
+}
 
-    img{
-        height: 200px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    p{
-        color: red;
-    }
+img {
+    height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p {
+    color: red;
+}
+
+/* Estilos do player flutuante */
+.video-flutuante {
+    display: none; /* Inicialmente invisível */
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    background-color: black;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+#player {
+    width: 560px;
+    height: 315px;
+}
+
+.fechar-video {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
