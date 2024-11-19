@@ -91,5 +91,5 @@ p {
     height: 0;
     border-left: 15px solid transparent; /* Lado esquerdo transparente */
     border-right: 15px solid transparent; /* Lado direito transparente */
-    border-bottom: 25px solid white; /* Parte inferior branca (triângulo) */
+    border-top: 25px solid white; /* Parte superior branca (triângulo) */
 }
