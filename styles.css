@@ -1,46 +1,70 @@
-body{
+body {
     font-family: "Permanent Marker", cursive;
     background: black;
     color: white;
     margin: 0px;
 }
-header{
+
+header {
     margin: 0px;
     padding: 20px;
     border-bottom: solid rgb(1, 1, 161) 5px;
     font-size: 30px;
 }
-iframe{
+
+iframe {
     background: white;
     padding: 30px;
 }
-h2{
+
+h2 {
     background: rgb(1, 1, 161);
 }
 
-section{
+section {
     padding: 20px;
     display: flex;
     justify-content: center;
 }
-.titulovideo{
-background: black;
+
+.titulovideo {
+    background: black;
 }
 
-div{
+div {
     background: white;
-    }
+}
 
-    .maisvideos{
-        display: flexbox;
-        overflow-x: auto;
-    }
+.maisvideos {
+    display: flexbox;
+    overflow-x: auto;
+}
 
-    img{
-        height: 200px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    p{
-        color: red;
-    }
+img {
+    height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p {
+    color: red;
+}
+
+/* Estilos do Modal */
+.modal {
+    display: none; /* Oculto por padrão */
+    position: fixed; /* Fixo na tela */
+    z-index: 1000; /* Fica acima de outros elementos */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    overflow: auto; /* Habilita rolagem se necessário */
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo escuro com opacidade */
+}
+
+.close {
+    color: white; /* Cor do botão de fechar */
+    float: right; /* Alinha à direita */
+    font-size: 28px; /* Tamanho da fonte */
+}
