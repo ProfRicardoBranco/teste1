@@ -49,21 +49,19 @@ img {
 p {
     color: red;
 }
-
 .modal {
     display: none; /* Oculto por padrão */
     position: fixed; /* Fixo na tela */
     z-index: 1000; /* Fica acima de outros elementos */
     left: 0;
     top: 0;
-    width: 100%; /* Largura total */
-    height: 100%; /* Altura total */
-    overflow: auto; /* Habilita rolagem se necessário */
+    width: 100vw; /* Largura total da viewport */
+    height: 100vh; /* Altura total da viewport */
+    overflow: hidden; /* Impede rolagem */
     background-color: rgba(0, 0, 0, 0.8); /* Fundo escuro com opacidade */
 }
 
-.close {
-    color: white; /* Cor do botão de fechar */
-    float: right; /* Alinha à direita */
-    font-size: 28px; /* Tamanho da fonte */
+#modalVideo {
+    width: 100%; /* Largura total do modal */
+    height: 100%; /* Altura total do modal */
 }
