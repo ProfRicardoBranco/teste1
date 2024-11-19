@@ -86,9 +86,15 @@ p {
 }
 
 .triangle {
-    width: 0;
-    height: 0;
-    border-left: 15px solid transparent; /* Lado esquerdo transparente */
-    border-right: 15px solid transparent; /* Lado direito transparente */
-    border-top: 25px solid white; /* Parte superior branca (triângulo) */
+    content: ''; /* Cria um elemento vazio para o triângulo de play */
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    width: 0; 
+    height: 0; 
+    border-top: 15px solid transparent; /* Lado superior do triângulo */
+    border-bottom: 15px solid transparent; /* Lado inferior do triângulo */
+    border-left: 25px solid white; /* Base do triângulo, apontando para a direita */
+    transform: translate(-50%, -50%); /* Ajusta a posição para centralizar */
+    z-index: 1; /* Coloca o triângulo acima do retângulo */
 }
