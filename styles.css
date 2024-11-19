@@ -50,7 +50,6 @@ p {
     color: red;
 }
 
-/* Estilos do Modal */
 .modal {
     display: none; /* Oculto por padrão */
     position: fixed; /* Fixo na tela */

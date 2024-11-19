@@ -6,8 +6,8 @@ document.querySelectorAll('.maisvideos a').forEach(link => {
         const modal = document.getElementById('videoModal');
         const modalVideo = document.getElementById('modalVideo');
         
-        // Define a URL do vídeo no modal
-        modalVideo.src = `https://www.youtube.com/embed/${videoId}`;
+        // Define a URL do vídeo no modal com autoplay
+        modalVideo.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
         
         // Mostra o modal
         modal.style.display = 'block';
