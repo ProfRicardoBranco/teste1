@@ -65,3 +65,31 @@ p {
     width: 100%; /* Largura total do modal */
     height: 100%; /* Altura total do modal */
 }
+
+.video-container {
+    position: relative; /* Para posicionar o botão de play */
+    display: inline-block; /* Para que os contêineres fiquem lado a lado */
+    margin: 10px; /* Espaço entre os vídeos */
+}
+
+.play-button {
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta a posição para centralizar */
+    width: 60px; /* Largura do retângulo */
+    height: 60px; /* Altura do retângulo */
+    background-color: red; /* Cor de fundo do retângulo */
+    border-radius: 5px; /* Bordas arredondadas (opcional) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent; /* Lado esquerdo transparente */
+    border-right: 15px solid transparent; /* Lado direito transparente */
+    border-bottom: 25px solid white; /* Parte inferior branca (triângulo) */
+}
