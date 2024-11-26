@@ -86,15 +86,18 @@ p {
 }
 
 .triangle {
-    content: ''; /* Cria um elemento vazio para o triângulo de play */
+    content: ''; /* Cria um elemento vazio para o retângulo */
     position: absolute;
     top: 50%; /* Centraliza verticalmente */
     left: 50%; /* Centraliza horizontalmente */
-    width: 0; 
-    height: 0; 
-    border-top: 15px solid transparent; /* Lado superior do triângulo */
-    border-bottom: 15px solid transparent; /* Lado inferior do triângulo */
-    border-left: 25px solid white; /* Base do triângulo, apontando para a direita */
+    width: 60px; /* Largura do retângulo */
+    height: 40px; /* Altura do retângulo */
+    background-color: red; /* Cor de fundo do retângulo */
+    border-radius: 10px; /* Cantos arredondados */
+    display: flex; /* Para centralizar o triângulo dentro do retângulo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
     transform: translate(-50%, -50%); /* Ajusta a posição para centralizar */
-    z-index: 1; /* Coloca o triângulo acima do retângulo */
+    z-index: 0; /* Coloca o retângulo abaixo do triângulo */
+    opacity: 1;
 }
