@@ -83,6 +83,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 0; 
 }
 
 .triangle {
@@ -98,6 +99,6 @@ p {
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
     transform: translate(-50%, -50%); /* Ajusta a posição para centralizar */
-    z-index: 0; /* Coloca o retângulo abaixo do triângulo */
+    z-index: 1; /* Coloca o retângulo abaixo do triângulo */
     opacity: 1;
 }
